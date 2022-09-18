@@ -51,7 +51,7 @@ module.exports = {
       favicon: path.join(__dirname, "favicon.ico")
     }),
     new Dotenv({
-      path: path.resolve('../', '.docksal', 'docksal.env')
+      path: path.resolve('../', '.docksal', 'docksal-local.env')
     }),
   ]
 }

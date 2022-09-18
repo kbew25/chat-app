@@ -146,7 +146,7 @@ function ChatRoom(user) {
     <>
       <main className="chat-room">
 
-        {messages && messages.map((msg, i) => <ChatMessage key={i} message={msg} />)}
+        {messages && messages.map((msg, i) => <ChatMessage message={msg} key={i} />)}
 
         <span ref={dummy}></span>
 
